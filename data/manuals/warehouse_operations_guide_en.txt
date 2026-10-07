@@ -1,0 +1,25 @@
+Warehouse Operations Guide
+
+1. Storage zones
+The warehouse is divided into three storage zones by turnover. Zone A holds fast movers and is located next to dock 1 to minimise travel time. Zone B holds medium movers and zone C holds slow movers on the upper racks. Items are re-classified every quarter based on their picking frequency.
+
+2. FIFO and FEFO
+Normal goods are picked by FIFO, first in first out. Perishable goods follow FEFO, first expired first out. Batches that are within 30 days of their expiry date are flagged amber in the system and are offered first to the sales team.
+
+3. Receiving
+Inbound deliveries are booked in 30-minute dock appointment slots. Trucks waiting more than 60 minutes are escalated to the warehouse manager. Each delivery is checked against the purchase order and the delivery note before the goods receipt is posted.
+
+4. Cycle counting
+Instead of one yearly stock take, the warehouse uses cycle counting. A items are counted monthly, B items are counted quarterly and C items are counted twice a year. Differences above 1% must be investigated before the adjustment is posted.
+
+5. Safety stock
+Safety stock is calculated as Z multiplied by the standard deviation of demand multiplied by the square root of the lead time. For a 95% service level the planner uses Z = 1.65. The result is reviewed every quarter together with the reorder points.
+
+6. Racking and equipment
+The maximum rack load is 1,000 kg per pallet position. Heavy pallets must be stored on the lowest level. Forklift operators need a certification that is renewed every 2 years, and the equipment is inspected before each shift.
+
+7. Returns
+Returned goods are placed in the quarantine zone Q and may stay there for up to 5 days. Within that time quality decides whether the goods are restocked, reworked or scrapped. Goods in zone Q are not available for sale.
+
+8. Temperature control
+The cold room is kept between 2 and 8 degrees Celsius. The monitoring system raises an alarm after 10 minutes out of range, and the warehouse supervisor must record the corrective action in the log.

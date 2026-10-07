@@ -1,0 +1,25 @@
+Production Planning Handbook
+
+1. Planning cycle
+The planning cycle is driven by the MRP run. MRP runs every week on Sunday 22:00 and creates planned production orders for the following two weeks. Planners review the proposals on Monday morning and convert the accepted ones into released production orders. Orders that were not reviewed by Monday noon are carried over to the next cycle and flagged in red on the planning board.
+
+2. Line capacity
+Each production line runs two shifts of eight hours per day. Line 3 is the highest capacity line and produces 1,200 units per shift. Line 1 and Line 2 are general purpose lines with a lower rate. When the planned load for a line exceeds its capacity, the planner must either move orders to another line or approve overtime with the plant manager.
+
+3. Material issue
+Raw materials are issued to the shop floor from the kitting zone K2. The picking tolerance is 2% of the required quantity: the picker may issue up to 2% more or less without a new approval. Anything beyond the tolerance needs a supervisor confirmation in the system. Unused materials must be returned to K2 at the end of the shift.
+
+4. Scrap handling
+Scrap is recorded per production order at completion. When scrap exceeds 3% of the produced quantity, the supervisor must submit a root-cause report within 24 hours. Repeated scrap on the same product is reviewed in the weekly quality meeting and may lead to a change in the BOM or the routing.
+
+5. Changeover
+Changing a line from one product to another takes time. A changeover on Line 1 takes 45 minutes. To limit lost time, planners should schedule similar products consecutively and avoid switching colour or size more than twice per shift.
+
+6. Maintenance windows
+Preventive maintenance is performed every 500 operating hours. The lines are locked for maintenance during the window on Saturday 06:00-10:00, and no production orders can be started in that window. Emergency repairs are logged as breakdown events and reduce the availability of the line.
+
+7. Rework orders
+Defective products can be reworked. Rework orders use order type RW and must be approved by the quality lead before they are released. Reworked units are inspected again and are booked to a separate batch so that they can be traced.
+
+8. Performance reporting
+The OEE dashboard is refreshed every 15 minutes and shows availability, performance and quality per line. The plant target OEE is 85%. Lines below target for three consecutive weeks must present an improvement plan to the plant manager.

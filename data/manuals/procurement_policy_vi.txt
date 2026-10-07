@@ -1,0 +1,25 @@
+Quy trình mua hàng nội bộ
+
+1. Phạm vi áp dụng
+Quy trình này áp dụng cho mọi yêu cầu mua sắm hàng hóa và dịch vụ của công ty, bao gồm cả mua sắm khẩn cấp. Người đề xuất phải tạo yêu cầu mua hàng trên hệ thống trước khi liên hệ nhà cung cấp. Các khoản mua không có yêu cầu mua hàng sẽ không được thanh toán.
+
+2. Hạn mức phê duyệt
+Yêu cầu mua hàng dưới 20 triệu đồng do trưởng bộ phận phê duyệt. Yêu cầu từ 20 đến 200 triệu đồng do giám đốc khối phê duyệt. Yêu cầu trên 200 triệu đồng phải được tổng giám đốc phê duyệt. Không được chia nhỏ yêu cầu để lách hạn mức, hệ thống sẽ cảnh báo các yêu cầu cùng nhà cung cấp trong cùng một tuần.
+
+3. Báo giá
+Với đơn hàng trên 50 triệu đồng, bộ phận mua hàng phải thu thập ít nhất 3 báo giá để so sánh. Trường hợp nhà cung cấp độc quyền, người đề xuất phải nộp văn bản giải trình được giám đốc khối ký duyệt. Báo giá phải còn hiệu lực tại thời điểm đặt hàng.
+
+4. Điều khoản thanh toán
+Thời hạn thanh toán tiêu chuẩn là 30 ngày kể từ ngày nhận hóa đơn hợp lệ. Nhà cung cấp chiến lược được hưởng thời hạn 45 ngày theo hợp đồng khung. Kế toán chỉ thanh toán khi đơn mua hàng, phiếu nhập kho và hóa đơn khớp nhau.
+
+5. Nhà cung cấp mới
+Nhà cung cấp mới phải qua đánh giá năng lực trong vòng 10 ngày làm việc, gồm hồ sơ pháp lý, năng lực tài chính và chất lượng sản phẩm mẫu. Sau khi đạt, hai bên ký hợp đồng khung trước khi phát sinh đơn hàng đầu tiên.
+
+6. Nhận hàng
+Bộ phận kho kiểm tra hàng trong vòng 24 giờ kể từ khi hàng về. Nếu số lượng chênh lệch trên 5% so với đơn mua hàng, thủ kho phải lập biên bản và thông báo cho bộ phận mua hàng để làm việc với nhà cung cấp.
+
+7. Đặt cọc
+Khoản đặt cọc tối đa là 30% giá trị đơn hàng và chỉ áp dụng cho hàng sản xuất theo đặt hàng. Mọi khoản đặt cọc phải có bảo lãnh hoặc được tổng giám đốc phê duyệt ngoại lệ.
+
+8. Lưu trữ hồ sơ
+Hồ sơ mua hàng gồm yêu cầu, báo giá, hợp đồng, biên bản nhận hàng và hóa đơn được lưu 10 năm. Hồ sơ điện tử là bản gốc, hồ sơ giấy chỉ lưu khi pháp luật yêu cầu.

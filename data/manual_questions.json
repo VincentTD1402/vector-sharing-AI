@@ -1,0 +1,18 @@
+[
+  {"query": "When does the MRP run each week?", "answer": "Sunday 22:00"},
+  {"query": "How long does a changeover take on Line 1?", "answer": "45 minutes"},
+  {"query": "What scrap rate requires a root-cause report?", "answer": "exceeds 3%"},
+  {"query": "What is the plant OEE target?", "answer": "OEE is 85%"},
+  {"query": "How many units per shift does Line 3 produce?", "answer": "1,200 units"},
+  {"query": "Giám đốc khối duyệt yêu cầu mua hàng trong khoảng giá trị nào?", "answer": "từ 20 đến 200 triệu"},
+  {"query": "Thời hạn thanh toán tiêu chuẩn cho nhà cung cấp là bao nhiêu?", "answer": "30 ngày kể từ ngày nhận hóa đơn"},
+  {"query": "Đặt cọc tối đa bao nhiêu phần trăm giá trị đơn hàng?", "answer": "tối đa là 30%"},
+  {"query": "Hồ sơ mua hàng được lưu trong bao lâu?", "answer": "lưu 10 năm"},
+  {"query": "Nhà cung cấp mới phải được đánh giá trong bao lâu?", "answer": "10 ngày làm việc"},
+  {"query": "How often are A items cycle counted?", "answer": "A items are counted monthly"},
+  {"query": "Which Z value is used for a 95% service level?", "answer": "Z = 1.65"},
+  {"query": "What is the maximum load per pallet position?", "answer": "1,000 kg"},
+  {"query": "How long can returned goods stay in quarantine?", "answer": "up to 5 days"},
+  {"query": "After how long is a waiting truck escalated?", "answer": "more than 60 minutes"},
+  {"query": "What temperature range is the cold room kept at?", "answer": "between 2 and 8"}
+]

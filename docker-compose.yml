@@ -1,0 +1,37 @@
+# Toàn bộ demo: `docker compose up -d --build` rồi mở http://localhost:8000
+#   postgres : PostgreSQL + pgvector (cổng host 5433, cho các demo CLI 07/08/13)
+#   app      : UI + Search API (cổng 8000); model đã nằm sẵn trong image
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: embedding-demo-pg
+    environment:
+      POSTGRES_DB: semantic_search
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+    ports:
+      - "5433:5432" # 5433 để tránh đụng Postgres cài sẵn trên máy
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d semantic_search"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  app:
+    build: .
+    container_name: embedding-demo-app
+    environment:
+      # Trong mạng compose, DB là host `postgres` cổng 5432 (không phải localhost:5433).
+      DATABASE_URL: postgresql://demo:demo@postgres:5432/semantic_search
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:

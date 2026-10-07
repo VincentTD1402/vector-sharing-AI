@@ -1,0 +1,9 @@
+sentence-transformers>=3.0
+numpy
+scikit-learn
+plotly
+rank-bm25
+psycopg[binary]>=3.2
+pgvector
+fastapi
+uvicorn
